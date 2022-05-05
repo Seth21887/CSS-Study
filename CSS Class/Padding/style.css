@@ -1,0 +1,14 @@
+#padding-test{
+    border-width: 1px;
+    border-color:blue;
+    border-style: solid;
+
+    /*this is the long way*/
+    /* padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px; */
+
+    padding: 6px 7px 8px 17px; /*the order goes clockwise, top,right,bottom,left*/
+    padding: 5px; /*this will give equal padding all around*/
+}

@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ccc;
+    padding:5px;
+    border-top:5px dashed blue;
+}

@@ -1,0 +1,41 @@
+*{
+    background-color:grey;
+}
+h1{
+    /*Named Color*/
+    /*color:yellow;*/
+
+    /* color: #ffffff; this is as light as possible, which is white */
+
+    /*Hex Colors*/
+    /* #000000 = black
+    1
+    2
+    3
+    4
+    .
+    .
+    a
+    b */
+
+    /*rgb, colors go from 0 to 255, starts at black,ends at white*/
+    color: rgb(0,0,0);
+}
+
+li{
+    color:#472abc;
+}
+
+body{
+    background-color:#8c1515;
+    color:#ffffff;
+}
+div.grey{
+    background-color:#555;
+    color:red;
+}
+h2{
+    background-color:white;
+    color:#000;
+    margin:0;
+}
