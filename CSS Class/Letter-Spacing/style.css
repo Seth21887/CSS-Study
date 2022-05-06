@@ -1,0 +1,16 @@
+#body{
+    padding: 0 10px 20px;
+}
+#page-title{
+    border-bottom:1px solid black;
+    margin: 0 0 25px 0;
+}
+.text-test{
+    /*only want to adjust by small increments*/
+    letter-spacing:1px;
+    text-align:justify;
+    text-indent:25px;
+
+    /*if letters are too far apart, you can squish them together using a negative value*/
+    letter-spacing:-1.25px;
+}

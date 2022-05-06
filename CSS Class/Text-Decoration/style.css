@@ -1,0 +1,16 @@
+.underline{
+    text-decoration:underline;
+}
+.overline{
+    text-decoration: overline;
+}
+.strike{
+    text-decoration: line-through;
+    text-decoration-color:red;
+    color:blue;
+    text-decoration-style:dotted;
+
+}
+/* .strike{
+    text-decoration:initial; /*this reverts the decoration to its original state
+}*/

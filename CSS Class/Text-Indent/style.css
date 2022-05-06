@@ -1,0 +1,11 @@
+#body{
+    padding: 0 10px 20px;
+}
+#page-title{
+    border-bottom:1px solid black;
+    margin: 0 0 25px 0;
+}
+.text-test{
+    text-indent:50%; /*this indent can be sized in px, em, and % */
+    text-align:justify;
+}

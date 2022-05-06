@@ -1,0 +1,12 @@
+p.left{
+    text-align: left;
+}
+p.right{
+    text-align: right;
+}
+p.center{
+    text-align: center;
+}
+p.justified{
+    text-align: justify; /*justified text makes sure that it spaces properly to the point where each side is touched, like a newspaper*/
+}
