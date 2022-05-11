@@ -1,0 +1,15 @@
+#body{
+    padding: 0 10px 20px;
+}
+
+#page-title{
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+}
+.sample{
+    word-spacing: 2px;
+    word-spacing: 500%; /*percentages don't work*/
+    word-spacing: 2rem; /*cm and rem do work*/
+    word-spacing: -100; /*raw integers don't work*/
+}

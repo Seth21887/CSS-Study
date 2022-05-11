@@ -1,0 +1,76 @@
+#body{
+    padding: 0 10px 20px;
+}
+
+#page-title{
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+}
+.new-font{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-family: Roboto, Arial, sans-serif; /*if the computer doesn't recognize a font in a list, it will go to the next one in that list*/
+    font-family: "Custom font one", "Roboto", cursive;
+}
+
+/*Get custom fonts from fonts.google.com*/
+
+.new-font{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#new-font-style{
+    font-style: italic;
+    /*initial or none will bring it back to default style*/
+    font-style: oblique; /*this is not really used anymore*/
+
+}
+
+.height1{
+    font-size:80px;
+}
+.height2{
+    font-size:50px;
+}
+.height3{
+    font-size: 30px;
+}
+.height4{
+    font-size:14px;
+}
+.height5{
+    font-size:3px;
+}
+.height6{
+    font-size: -10px; /*impossible*/
+}
+
+.font-weights{
+    font-family:'roboto';
+    font-size: 30px;
+}
+
+.w900{
+    font-weight:900;
+}
+.w700{
+    font-weight:700;
+}
+.w500{
+    font-weight:500;
+}
+.w400{
+    font-weight:400;
+}
+.w300{
+    font-weight:300;
+}
+.w100{
+    font-weight: 100;
+}
+
+.main{
+    display:flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+#body{
+    padding: 0 10px 20px;
+}
+
+#page-title{
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+}
+.serif{
+    font-family: Times; /*the ticks used in serif fonts actually help the reader read long lengths of text*/
+}
+
+.sans{
+    font-family: Arial; /*sans serif doesn't have the ticks on the letters that serif does*/
+}

@@ -1,0 +1,16 @@
+#body{
+    padding: 0 10px 20px;
+}
+
+#page-title{
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+}
+
+.sample{
+    line-height: 2; /*this means twice the font size*/
+    line-height: 10px; /*this will actually look very cramped because the font size is larger than 10px*/
+    line-height: 200%;
+
+}

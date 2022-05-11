@@ -1,0 +1,13 @@
+#body{
+    padding: 0 10px 20px;
+}
+
+#page-title{
+    margin: 0 0 25px 0;
+    padding: 0;
+    border-bottom: 1px solid #aaa;
+}
+
+#fv{
+    font-variant: small-caps; /*this is the size of lowercase, however its all caps. This can be used for a label, subtext, etc.*/
+}

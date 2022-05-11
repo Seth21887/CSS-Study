@@ -1,0 +1,10 @@
+.inline{
+    display:inline;
+    width: 500px; /*this won't work because inline takes up the least amount of space possible*/
+    height: 200px; /*also can't add a height to an inline element*/
+    font-size: 15px;
+}
+
+h1 > div {
+    border-bottom: 10px solid #000;
+}
