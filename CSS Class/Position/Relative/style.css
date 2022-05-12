@@ -1,0 +1,9 @@
+.pos{
+    display: inline-block; 
+    border: 1px solid orange;
+    height: 50px; 
+    width: 50px;
+    position: relative; /*this means any movements to this element will be in relation to where it started*/
+    top: 125px; /* this means moving it from the top, so moving it down*/
+    left: 300px; /* this means moving it from the left, so right*/
+}

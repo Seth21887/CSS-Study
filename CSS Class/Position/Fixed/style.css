@@ -1,0 +1,18 @@
+body{
+    height: 2000px; /*doing this to make the page longer to scroll*/
+    padding-top: 50px;
+}
+nav{
+    border-bottom: 2px solid grey;
+    font-weight: 700;
+    color: grey;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: tan;
+    font-family: cursive;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0; /*we can achieve the same thing using width: 100%*/
+}
