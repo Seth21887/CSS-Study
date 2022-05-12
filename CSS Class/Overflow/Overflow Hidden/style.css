@@ -1,0 +1,4 @@
+body{
+    overflow-x: hidden;
+}
+/*this is hiding an unwanted scroll bar either on the x or y axis, or no scroll bars altogether*/
