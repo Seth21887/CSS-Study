@@ -1,0 +1,18 @@
+.link1{
+    color:#000;
+    text-decoration: none;
+
+}
+.link1:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+.link2:visited{
+    color: orange;
+}
+
+.link3:active{
+    color: purple;
+    font-weight: 700;
+}
