@@ -1,0 +1,24 @@
+.list {
+    list-style-type: disc; /*can be circle, upper-roman, lower-roman, upper-alpha, lower-alpha, none*/
+    /*lists come with a lot of left padding, so that can be taken off by adjusting it.*/
+    padding-left: 0;
+    margin: 0;
+}
+/*a lot of navigation menus are made from actual lists, just with some of the normal features removed with CSS*/
+.list li{
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.inside{
+    list-style-position: inside; /*the numbers or symbols of the ordered list are inside the element content, meaning not in the padding.*/
+}
+.outside{
+    list-style-position: outside; /*the numbers are outside of the element area, so in the padding*/
+    
+}
+ol.custom{
+    list-style-image: url('bullet.png'); /*this can use a custom styling using a picture as the list icon*/
+}

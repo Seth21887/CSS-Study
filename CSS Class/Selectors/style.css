@@ -1,0 +1,22 @@
+/*grouping selectors, this is going to target all p's and spans*/
+p, span{
+    color: blue;
+}
+
+/*descendant selectors and specificity, this is only going to target the span inside the p*/
+p span{
+    color: green;
+}
+
+/*child selectors*/
+body > div > p > span > label{
+    color: orange;
+} 
+
+/*adjacent selectors, the two elements connected by the plus sign MUST be adjacent or the proper CSS will not take effect. This is good to use when you don't have certain class or id names that you want to target but you have to target those specific items*/
+form label + input {
+    border: 1px solid red;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}

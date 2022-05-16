@@ -1,0 +1,56 @@
+.firstTable{
+    border: 2px solid red;
+    border-collapse: collapse; /*this will take the two borders down to one*/
+}
+.firstTable td{
+    border: 1px solid black;
+}
+.thirdTable{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 300px;
+}
+.thirdTable td{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+.thirdTable tr:hover{
+    background-color: #ccc;
+}
+.thirdTable tr:hover td:hover{
+    background-color: #aaa;
+    color: yellow;
+}
+
+.projectTable{
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    color: green;
+}
+.projectTable th{
+    padding: 5px;
+    margin: 0;
+    background-color: #ccc;
+}
+.projectTable thead th{
+    border-bottom: 1px solid #ccc;
+}
+.projectTable tfoot th{
+    border-top: 1px solid #ccc;
+}
+.projectTable tr{
+    border: 1px solid #ccc;
+}
+.projectTable td{
+    border: 1px solid #ccc;
+}
+.projectTable tr:hover{
+    background-color: rgb(194, 223, 194);
+}
+.projectTable tr:hover td:hover{
+    background-color: yellow;
+}
