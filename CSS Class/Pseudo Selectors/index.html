@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pseudo Selectors</title>
+</head>
+<body>
+    
+    <!--focused pseudo-->
+
+    <input type="text" class="test">
+
+    <!--checked pseudo-->
+
+    <input type="checkbox" id="cbox">
+
+    <div class="demo">
+        This is my demo content.
+    </div>
+
+    
+    <label for="cbox">
+        <span style="border:2px solid black; background-color:grey; color: white;padding: 5px; position:relative; top: 50px;">Click this label.</span>
+    </label>
+
+    <!--disabled pseudo-->
+
+    <input id="disabled" type="text" disabled="disabled">
+        <div disabled="disabled">test</div>
+
+    <!--enabled pseudo-->
+    <!--basically all inputs are enabled by default, but sometimes the pseudo selector :enabled can be added in CSS if necessary-->
+
+    
+
+    
+</body>
+</html>

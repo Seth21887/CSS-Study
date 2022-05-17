@@ -1,0 +1,28 @@
+.test{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    color: #999;
+    opacity: 0.25;
+}
+
+/*the outline of the input that changes is the focus display*/
+
+.test:focus{
+    border: 4px solid black;
+    outline: 0;
+    color: #000;
+    opacity: 1;
+
+}
+
+input[type='checkbox']:checked + div.demo{ /*check boxes can't have a border*/
+    background-color: blue;
+    color:#fff;
+}
+
+/*disabled fields are typically reserved for input fields that can allow it.*/
+#disabled:disabled{
+    background-color: black;
+    border: 2px solid red;
+}
