@@ -25,9 +25,7 @@ nav{
 #brand:hover{
     color:green;
 }
-#brand:active{
-    
-}
+
 #nav-container{
     border-right: 1px solid black;
     float: left;
@@ -43,9 +41,7 @@ ul.nav{
     padding: 0;
     list-style-type: none;
 }
-ul.nav li{
 
-}
 ul.nav li a{
     display: block;
     width: 100%;
