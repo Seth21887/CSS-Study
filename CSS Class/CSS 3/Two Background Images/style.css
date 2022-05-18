@@ -1,0 +1,10 @@
+.twoImages{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-image: url('lake.jpg'), url('../Rounded Images/butterfly.webp'), url('avocado.webp');
+    background-size: 20%, cover, 20%;
+    background-repeat: repeat-x,no-repeat, repeat-x;
+    background-position: left bottom, center center, left top;
+    /*it seems that a third image can't be added*/
+}

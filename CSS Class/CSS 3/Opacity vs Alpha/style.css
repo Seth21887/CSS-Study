@@ -1,0 +1,16 @@
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: #000;
+    color: white;
+}
+
+.opa{
+    opacity: 0.5; /*this is everything inside of the elemnent, including the text and all children elements*/
+}
+
+.alpha{
+    color: rgba(255,255,255,0.5); /*with alpha, the background color is not changing, only the text*/
+}

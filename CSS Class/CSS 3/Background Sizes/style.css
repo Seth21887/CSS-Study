@@ -1,0 +1,13 @@
+.butterfly{
+    background-image: url('../Rounded Images/butterfly.webp');
+    background-position: center center;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-repeat:no-repeat;
+
+    /*for background size we can do cover, contain, %, and px*/
+    /* background-size: 30% 50%; what this means is 10% of its regular width and height, we can go 10% 50% which would adjust each measurement separately. */
+    background-size: 280px 280px;
+    border: 10px solid green;
+}

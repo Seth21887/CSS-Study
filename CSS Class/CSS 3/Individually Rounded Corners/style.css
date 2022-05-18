@@ -1,0 +1,8 @@
+.butter{
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 50%;
+}
