@@ -1,0 +1,27 @@
+*{
+    background-color: gray;
+}
+
+.parent{
+    position: relative;
+    height: 50px;
+    background-color: white;
+}
+.child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #8c1515;
+    transition-duration: 5s;
+    transition-property: left;
+    /* transition-timing-function: linear; /*one speed from start to finish*/
+    transition-timing-function: ease-in-out;
+    /*options are ease, ease-in, ease-out, ease-in-out*/
+    /*a timing function can be created manually by the use of cubic-bezier(n,n,n,n)*/
+}
+
+.parent:hover .child {
+    left: calc(100% - 50px);
+}

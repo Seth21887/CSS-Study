@@ -1,0 +1,16 @@
+.box{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    transition: 250ms width linear, 250ms height linear, 1s color linear;
+    color: #fff;
+    /*transitions take 3 inputs, duration, parameter (width/height), speed curve.*/
+    /*we can also use 'all' as a parameter and that will transition everything the same*/
+}
+
+.box:hover{
+    width: 100px;
+    height: 100px;
+    color: brown;
+}

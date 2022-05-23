@@ -1,0 +1,12 @@
+.transition-test{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    transition-duration: 300ms;
+    transition-property: color;
+    transition-timing-function: linear;
+}
+
+.transition-test:hover{
+    color: #8c1515;
+}
