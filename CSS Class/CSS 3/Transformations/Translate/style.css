@@ -1,0 +1,24 @@
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #8c1515;
+    position: relative;
+    left: 25%;
+    z-index: 1;
+
+    transform: translate(100px, 100px); /*takes 2 parameters, x axis and y axis*/
+}
+
+.box::before{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
+    transform: translate(-20px, -20px); /*if we only want to move it on one axis, we can use either translateX or translateY*/
+}

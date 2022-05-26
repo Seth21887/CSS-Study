@@ -1,0 +1,19 @@
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-color: #8c1515;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+
+    transition: 1s all linear;
+    /* transform: rotate(45deg); */
+}
+
+.box:hover{
+    /* transform: rotate(360deg); */
+    /*this measurement can actually go further than 360deg*/
+    transform: rotateY(180deg);
+    /*negative numbers can be used as well to make it rotate the other direction*/
+}

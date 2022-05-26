@@ -20,6 +20,7 @@
     transition-timing-function: ease-in-out;
     /*options are ease, ease-in, ease-out, ease-in-out*/
     /*a timing function can be created manually by the use of cubic-bezier(n,n,n,n)*/
+    transition-delay: 2s;
 }
 
 .parent:hover .child {

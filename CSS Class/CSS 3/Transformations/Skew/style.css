@@ -1,0 +1,7 @@
+p{
+    border: 1px solid black;
+}
+.skew{
+    transform: skewY(-2deg);
+    /*we can also use skewX and skewY*/
+}

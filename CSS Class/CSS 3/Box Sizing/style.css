@@ -1,0 +1,16 @@
+.box1, .box2{
+    border: 1px solid red;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.box1{
+    box-sizing: content-box; /*this means that the content inside of the box adds to the entire width of the box, this is default*/
+    padding: 20px;
+    /*so the entire width of the box here is going to end up being 342px, the content alone is 300px width*/
+}
+
+.box2{
+    box-sizing: border-box; /*with border-box configuration, you're adding nothing to the overall width, so the entire element is now going to have 300px width*/
+    padding: 20px;
+}
