@@ -1,0 +1,18 @@
+.big-box{
+    display: flex;
+    flex-direction: column; /*now that its acting like a column, the text-align works when before it wasn't*/
+    justify-content:center;
+        /*flex-start is the very top
+        flex-end is the very bottom
+        center is the very center
+        */
+    width: 300px;
+    height: 300px;
+    margin: 50px auto 0;
+    background-color: #8c1515;
+    color: #fff;
+    text-align: center;
+    
+
+    /*how can we get the text to come down to the center of the box and be vertically aligned?*/
+}

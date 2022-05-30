@@ -1,0 +1,29 @@
+.flex-parent{
+    display: flex;
+    border: 1px solid red;
+}
+
+.box1, .box2, .box3{
+    /* flex-basis: 33%; each column will have a width of 33%, using this instead of width property allows it to be flexible */
+    border: 1px solid blue;
+    flex-shrink: 1; /*1 means true*/
+    flex-grow: 1;
+}
+
+.box1{
+    flex-basis: 50%; /*here this column is not actually going to take up the 50% because its allowed to shrink and give the other columns the space that they're requesting.*/
+    flex-shrink: 0;
+    flex-grow: 1;
+    background-color: red;
+}
+.box2{
+    flex: 0 0 25%; /*short hand notation is 'growth, shrink, basis'*/
+    /*the fact that shrink is true here means that the basis can actually go lower than 25% if another item is requesting more space than is available.*/
+    background-color: blue;
+}
+.box3{
+    flex-basis: 25%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /*this is the last column to render, and it is trying to take up 50% of the space when there isn't enough available, therefore it is kind of sharing space with column 2.*/
+}

@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0000ff;
+    height: 500px;
+    align-content: space-between;
+    /*
+    align content will not space things out, but will group all the elements together and put them however you designate:border:
+    ***will only work if there is more than one row***
+    flex-end: bottom
+    flex-start: top
+    stretch: looks like the default
+    space-around: will put more space between the rows
+    space-between: no space on the top and bottom, and middle column will be in the dead center.
+
+    */
+}
+
+.col{
+    flex-basis: 26%; /*should only ever be 3 per row when wrapped properly*/
+    flex-shrink: 0;
+    display: flex;
+
+    background-color: #8c1515;
+    color: #fff;
+    border: 1px solid white;
+    height: 50px;
+}

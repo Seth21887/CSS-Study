@@ -1,0 +1,16 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*whenever it breaks past 100% it will bump that offender to the next line*/
+    margin: 10px;
+}
+
+/*Since these elements cannot grow or shrink and are designated 75% each, then a scroll bar will be created on the page to view everything*/
+
+/*we don't want people scrolling sideways on our site as that leads to a bad user experience, for this reason we can use flex-wrap*/
+.col-75{
+    border: 1px solid blue;
+    flex-basis: 75%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

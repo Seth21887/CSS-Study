@@ -1,0 +1,31 @@
+.row{
+    display: flex;
+    flex-direction: row; 
+    margin: 10px;
+}
+
+.row div:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+
+.col{
+    border: 1px solid blue;
+    /*flex-basis: 100% /*the flex basis is the initial level that it is before it either shrinks or expands*/
+}
+.col1{
+    flex-basis: 50%;
+}
+.col2{
+    flex-basis: 25%;
+    flex-grow: 1; /* so since there is all that extra space in that div, it ends up expanding all the way across the page since it is allowed to grow*/
+}
+.col3{
+    flex-basis: 75%;
+    flex-grow: 0;
+    flex-shrink: 1; /*this will not have an effect because it doesn't need to shrink currently, there is no other column in this row looking for space*/
+}
+
+/* flex basis == width */

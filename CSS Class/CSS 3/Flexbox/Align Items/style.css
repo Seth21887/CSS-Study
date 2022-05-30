@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+    background-color: blue;
+    height: 300px;
+    align-items: stretch;
+    /*
+    flex-start: align all at the very top
+    flex-end: align all at the very bottom
+    center: align in the center
+    stretch: will try to stretch it out as far as it can all the way down the container
+    */
+}
+.col{
+    flex-basis: 20%;
+    display:flex;
+    text-align: center;
+    background-color: #8c1515;
+    color: #fff;
+    border: 1px solid white;
+    flex-direction: column;
+    justify-content: center;
+}
+.small-col{
+    flex-basis: 13%;
+    background-color:green;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

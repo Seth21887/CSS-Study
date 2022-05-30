@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    height: 500px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.col{
+    flex-basis: 20%;
+    display:flex;
+    text-align: center;
+    background-color: #8c1515;
+    color: #fff;
+    border: 1px solid white;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
+
+.col1{
+    height: 50px;
+    align-self: center; /*this is self explanatory, will align solely itself to the center*/
+}
+.col2{
+    height: 250px;
+    align-self: flex-end;
+}
+.col3{
+    height: 125px;
+    align-self: baseline;
+}
+.col4{
+    height: auto;
+    align-self: stretch; /*stretch will not work if a specific height is assigned*/
+}

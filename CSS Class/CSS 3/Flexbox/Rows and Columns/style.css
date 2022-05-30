@@ -1,0 +1,28 @@
+.flex-parent{
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column; /*this will take all of the elements within the parent div and put them in columns.*/
+
+    /*to reverse the order: works well with responsive web design*/
+    flex-direction: row-reverse; /*or column-reverse*/
+}
+
+.flex-parent div:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+
+.box1, .box2, .box3{
+    flex-basis: 33%; /*each column will have a width of 33%, using this instead of width property allows it to be flexible */
+    border: 1px solid blue;
+    flex-shrink: 1; /*1 means true*/
+    flex-grow: 1;
+    /* flex-direction: row; row is the default, it means put all these items in a row */
+}
+
+/* .box3{
+    order: -1 /*this is going to take the last column and put it on the top
+} */
+

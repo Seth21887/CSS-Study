@@ -1,0 +1,23 @@
+.flex-parent{
+    display: flex;
+    border: 1px solid red;
+}
+
+.box1, .box2, .box3{
+    flex-basis: 33%; /*each column will have a width of 33%, using this instead of width property allows it to be flexible */
+    border: 1px solid blue;
+    flex-shrink: 1; /*1 means true*/
+    flex-grow: 1;
+}
+
+/*order will allow us to rearrange our flex items on our page, it will not affect anything with our html, just the display*/
+
+.box1{
+    order: 3
+}
+.box2{
+    order: 1
+}
+.box3{
+    order: 2 /*default order is 1 so that won't do anything if you designate it as 1 */
+}

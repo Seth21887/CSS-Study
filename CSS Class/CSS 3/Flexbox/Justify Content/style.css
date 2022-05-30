@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    /*
+    flex-start: default
+    flex-end: push it all to the right
+    center: center
+    space-around: will space equally between items
+    space-between: this will get rid of the spacing between the columns and the edge of browser, in turn adding more spacing between the columns.
+    space-evenly: exact spacing will be used between and outside of each column.
+
+    */
+}
+.col{
+    flex-basis: 20%;
+    display:flex;
+    text-align: center;
+    background-color: #8c1515;
+    color: #fff;
+    border: 1px solid white;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
