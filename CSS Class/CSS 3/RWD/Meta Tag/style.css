@@ -1,0 +1,34 @@
+#test{
+    background-color: yellow;
+    color: black;
+    padding: 50px;
+}
+
+@media(max-width: 1000px){
+    #test{
+        background-color: blue;
+    }
+}
+
+@media(max-width: 768px){
+    #test{
+        background-color: red;
+    }
+}
+
+@media(max-width: 640px) {
+    #test{
+    background-color: green;
+    }
+}
+@media(max-width: 425px) {
+    #test{
+    background-color: orange;
+    }
+}
+@media(max-width: 320px) {
+    #test{
+    background-color: #000;
+    color: white;
+    }
+}

@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+/*BEM: block element modifiers is a CSS ruleset that allows you to not have to fight with specificity */
+.brand{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.nav-buttons{
+    text-align: right;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.nav-buttons a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    display: inline-block; /*changing the display to inline-block so we can add padding and margin.*/
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.body{
+    display: flex;
+    margin-bottom: 40px;
+}
+.left-column, .center-column, .right-column{
+    border: 1px solid red;
+    flex: 1 1 33%;
+    padding: 0 20px;
+
+}
+
+.center-column{
+    flex: 0 0 50%;
+}
+
+.left-column a {
+    padding: 5px 0;
+    text-decoration: none;
+    color: #000;
+}
+ol li{
+    list-style-type: disc;
+    padding-left: 0;
+    list-style-position: outside;
+}
+
+.adv{
+    display: block;
+    height: 200px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #111;
+    padding: 50px 0;
+
+}
+.footer div{ /*already a flex item due to its parent being display: flex*/
+    flex-basis: 20%;
+    border: 1px solid blue;
+
+}
+
+@media(max-width: 768px){
+    .footer, .body{
+        flex-wrap: wrap;
+    }
+    .footer div{ 
+        flex-basis: 50%;
+        border: 1px solid white;
+        flex-shrink: 0;
+        flex-grow: 0;
+        margin-bottom: 10px;
+    
+    }
+    .left-column, .center-column, .right-column{
+        flex-basis: 100%;
+        flex-shrink: 0
+    }
+    .center-column{
+        order: 1;
+    }
+    .left-column{
+        order: 2;
+    }
+    .right-column{
+        order: 3;
+        display: none; /*taking out the ads when window is minimized*/
+    }
+
+}
+
+@media(max-width: 425px){
+    
+    .left-column, .center-column, .right-column{
+        margin-bottom: 10px;
+        padding: 10px 20px;
+    }
+
+    .footer div{ 
+        flex-basis: 100%;
+        padding: 10px 20px; /*this is keeping the text in line with the margin of the whole page prior to the footer*/
+        border: 0;
+        flex-shrink: 0;
+        flex-grow: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    
+    }
+    .right-column{
+        display: block;
+    }
+    
+}
